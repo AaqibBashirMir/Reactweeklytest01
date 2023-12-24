@@ -126,12 +126,7 @@ function Password() {
           <Button id="copy" name="Copy password" onClick={copy} />
           <Button id="generate" name="Generate Password" onClick={generate}/>
         </div>
-
-
-
-
-
-
+        <a href="https://github.com/AaqibBashirMir?tab=repositories" style={{color:"white",textAlign:"center"}}>Developed by AaqibBashirMir<i class="fa-brands fa-github"></i></a>
       </div>
     </div>
     <ToastContainer />
