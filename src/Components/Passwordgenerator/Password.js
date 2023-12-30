@@ -97,18 +97,18 @@ function Password() {
             </div>
             <div className='upper'>
               <input type='checkbox' checked={upperCase} onChange={()=>{setUpperCase(!upperCase)}}></input>
-              <label htmlFor='lower-case'>Include UpperCase(A-Z)</label>
+              <label htmlFor='upper-case'>Include UpperCase(A-Z)</label>
             </div>
 
           </div>
           <div className='right-side'>
             <div className='number'>
               <input type='checkbox' checked={numbers} onChange={()=>{setNumbers(!numbers)}}></input>
-              <label htmlFor='lower-case'>Include Number(0-9)</label>
+              <label htmlFor='numbers'>Include Number(0-9)</label>
             </div>
             <div className='symbol'>
               <input type='checkbox' checked={symbols} onChange={()=>{setsymbols(!symbols)}}></input>
-              <label htmlFor='lower-case'>Include Symbols(&-#)</label>
+              <label htmlFor='symbols'>Include Symbols(&-#)</label>
             </div>
 
           </div>
